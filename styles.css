@@ -2,8 +2,8 @@ body
 {
     text-align: center;
     color: white;
-    height: 90vh;
-    width: 90vw;
+    height: 100vh;
+    width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://www.hdwallpapers.in/download/dark_light_brown_wood_line_shades_hd_wooden-HD.jpg);
