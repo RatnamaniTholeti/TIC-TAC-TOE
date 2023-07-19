@@ -1,0 +1,82 @@
+body
+{
+    text-align: center;
+    color: white;
+    height: 90vh;
+    width: 90vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://www.hdwallpapers.in/download/dark_light_brown_wood_line_shades_hd_wooden-HD.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+section
+{
+    text-align: center;
+    /* padding: 100px */
+}
+.game
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 400px;
+    margin: 50px auto;
+    background-color: black;
+    
+}
+.cell
+{
+    font-family: "Permanent Marker",cursive;
+    width: 130px ;
+    height: 130px;
+    /* border: 3px solid white; */
+    cursor: pointer;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell:hover
+{
+   background-color: blanchedalmond;
+}
+.t
+{
+    border-bottom: 5px solid white;
+}
+.s
+{
+    border-bottom: 5px solid white;
+    
+}
+.r
+{
+   border-right: 5px solid white;
+}
+.p
+{
+    border-right: 5px solid white;
+
+}
+button
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30%;
+    font-family: "Permanent Marker",cursive;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color:red;
+}
+.g
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 400px;
+    margin: 50px auto;
+    background-color: black;
+    
+
+}
